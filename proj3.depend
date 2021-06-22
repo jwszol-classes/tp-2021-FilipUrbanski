@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1624390360 source:c:\users\48735\onedrive\desktop\runda 4\main.cpp
-	<windows.h>
-	<gdiplus.h>
-	<fstream>
-	<vector>
-	<iostream>
-	<cmath>
-
