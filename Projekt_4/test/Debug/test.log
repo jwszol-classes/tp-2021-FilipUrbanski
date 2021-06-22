@@ -1,0 +1,14 @@
+﻿  main.cpp
+C:\Users\filip\source\repos\Projekt_4\test\main.cpp(23,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Projekt_4\test\main.cpp(27,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Projekt_4\test\main.cpp(35,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Projekt_4\test\main.cpp(39,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Projekt_4\test\main.cpp(43,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Projekt_4\test\main.cpp(47,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Projekt_4\test\main.cpp(51,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Projekt_4\test\main.cpp(55,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Projekt_4\test\main.cpp(59,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Projekt_4\test\main.cpp(63,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Projekt_4\test\main.cpp(67,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Projekt_4\test\main.cpp(71,30): warning C4305: 'argument': truncation from 'double' to 'float'
+  test.vcxproj -> C:\Users\filip\source\repos\Projekt_4\Debug\test.exe
