@@ -1,0 +1,192 @@
+﻿  Main.cpp
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(164,36): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(165,36): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(168,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(172,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(180,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(184,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(188,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(192,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(196,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(200,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(204,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(208,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(212,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(216,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(222,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(226,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(230,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(234,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(238,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(242,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(246,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(250,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(254,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(258,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(271,102): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(271,81): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(279,103): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(279,82): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(287,103): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(287,82): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(295,103): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(295,82): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(303,103): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(303,82): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(311,96): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(311,75): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(319,96): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(319,75): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(327,96): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(327,75): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(335,96): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(335,75): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(343,96): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(343,75): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(351,98): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(351,77): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(359,98): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(359,77): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(367,98): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(367,77): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(375,98): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(375,77): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(383,98): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\filip\source\repos\Project4\Project4\Main.cpp(383,77): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Project4.vcxproj -> C:\Users\filip\source\repos\Project4\Debug\Project4.exe
