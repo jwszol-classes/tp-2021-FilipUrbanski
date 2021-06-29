@@ -129,7 +129,7 @@ bool mone_4_hover(FloatRect mone_4, Vector2f mp)
 }
 
 
-int waga = 0, pass = 0;
+int waga = 0, pass = 0, lvl = 0;
 
 int main()
 {
@@ -154,7 +154,7 @@ int main()
 
 	Vector2f mp;
 
-	Text warning, pass_numb, mapss;
+	Text warning, pass_numb, mpass;
 
 	warning.setFont(font);
 	warning.setString("Za duzo pasazerow, pozbadz sie kilku.");
@@ -168,7 +168,6 @@ int main()
 	mpass.setCharacterSize(20);
 	mpass.setFillColor(Color(0, 0, 0));
 
-	
 	pass_numb.setFont(font);
 	pass_numb.setPosition(700, 30);
 	pass_numb.setCharacterSize(20);
@@ -286,6 +285,7 @@ int main()
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
 					elev_img.setPosition(330, 520);
+					lvl = 0;
 				}
 			}
 
@@ -294,6 +294,7 @@ int main()
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
 					elev_img.setPosition(330, 400);
+					lvl = 1;
 				}
 			}
 
@@ -302,6 +303,7 @@ int main()
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
 					elev_img.setPosition(330, 280);
+					lvl = 2;
 				}
 			}
 
@@ -310,6 +312,7 @@ int main()
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
 					elev_img.setPosition(330, 160);
+					lvl = 3;
 				}
 			}
 
@@ -318,6 +321,7 @@ int main()
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
 					elev_img.setPosition(330, 40);
+					lvl = 4;
 				}
 			}
 
@@ -325,8 +329,11 @@ int main()
 			{
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
-					waga += 70;
-					pass++;
+					if (lvl == 0)
+					{
+						waga += 70;
+						pass++;
+					}
 				}
 			}
 
@@ -334,8 +341,11 @@ int main()
 			{
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
-					waga += 70;
-					pass++;
+					if (lvl == 1)
+					{
+						waga += 70;
+						pass++;
+					}
 				}
 			}
 
@@ -343,8 +353,11 @@ int main()
 			{
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
-					waga += 70;
-					pass++;
+					if (lvl == 2)
+					{
+						waga += 70;
+						pass++;
+					}
 				}
 			}
 
@@ -352,8 +365,11 @@ int main()
 			{
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
-					waga += 70;
-					pass++;
+					if (lvl == 3)
+					{
+						waga += 70;
+						pass++;
+					}
 				}
 			}
 
@@ -361,8 +377,11 @@ int main()
 			{
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
-					waga += 70;
-					pass++;
+					if (lvl == 4)
+					{
+						waga += 70;
+						pass++;
+					}
 				}
 			}
 
@@ -370,8 +389,11 @@ int main()
 			{
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
-					waga -= 70;
-					pass--;
+					if (lvl == 0)
+					{
+						waga -= 70;
+						pass--;
+					}
 				}
 			}
 
@@ -379,8 +401,11 @@ int main()
 			{
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
-					waga -= 70;
-					pass--;
+					if (lvl == 1)
+					{
+						waga -= 70;
+						pass--;
+					}
 				}
 			}
 
@@ -388,8 +413,11 @@ int main()
 			{
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
-					waga -= 70;
-					pass--;
+					if (lvl == 2)
+					{
+						waga -= 70;
+						pass--;
+					}
 				}
 			}
 
@@ -397,8 +425,11 @@ int main()
 			{
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
-					waga -= 70;
-					pass--;
+					if (lvl == 3)
+					{
+						waga -= 70;
+						pass--;
+					}
 				}
 			}
 
@@ -406,8 +437,11 @@ int main()
 			{
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
-					waga -= 70;
-					pass--;
+					if (lvl == 4)
+					{
+						waga -= 70;
+						pass--;
+					}
 				}
 			}
 
