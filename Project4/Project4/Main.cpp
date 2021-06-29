@@ -154,7 +154,7 @@ int main()
 
 	Vector2f mp;
 
-	Text warning, pass_numb;
+	Text warning, pass_numb, mapss;
 
 	warning.setFont(font);
 	warning.setString("Za duzo pasazerow, pozbadz sie kilku.");
@@ -162,6 +162,13 @@ int main()
 	warning.setCharacterSize(16);
 	warning.setFillColor(Color(0, 0, 0));
 
+	mpass.setFont(font);
+	mpass.setString("Usunales nieistniejacych pasazerow, \ndodaj ich z powrotem");
+	mpass.setPosition(20, 30);
+	mpass.setCharacterSize(14);
+	mpass.setFillColor(Color(0, 0, 0));
+
+	
 	pass_numb.setFont(font);
 	pass_numb.setPosition(700, 30);
 	pass_numb.setCharacterSize(20);
@@ -435,6 +442,8 @@ int main()
 			win_ele.draw(pass_numb);
 			if (waga >= 700)
 				win_ele.draw(warning);
+			if (pass < 0)
+				win_ele.draw(mpass);
 			win_ele.display();
 		}
 	}
