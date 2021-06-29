@@ -163,9 +163,9 @@ int main()
 	warning.setFillColor(Color(0, 0, 0));
 
 	mpass.setFont(font);
-	mpass.setString("Usunales nieistniejacych pasazerow, \ndodaj ich z powrotem");
-	mpass.setPosition(20, 30);
-	mpass.setCharacterSize(14);
+	mpass.setString("ERROR");
+	mpass.setPosition(30, 30);
+	mpass.setCharacterSize(20);
 	mpass.setFillColor(Color(0, 0, 0));
 
 	
@@ -443,7 +443,13 @@ int main()
 			if (waga >= 700)
 				win_ele.draw(warning);
 			if (pass < 0)
+			{
 				win_ele.draw(mpass);
+
+				pass = 0;
+				waga = 0;
+				
+			}
 			win_ele.display();
 		}
 	}
