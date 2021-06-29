@@ -1,6 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <string>
+#include <sstream>
 
 using namespace std;
 using namespace sf;
@@ -128,7 +129,7 @@ bool mone_4_hover(FloatRect mone_4, Vector2f mp)
 }
 
 
-int waga = 0;
+int waga = 0, pass = 0;
 
 int main()
 {
@@ -153,13 +154,18 @@ int main()
 
 	Vector2f mp;
 
-	Text warning;
+	Text warning, pass_numb;
 
 	warning.setFont(font);
 	warning.setString("Za duzo pasazerow, pozbadz sie kilku.");
 	warning.setPosition(40, 30);
 	warning.setCharacterSize(16);
 	warning.setFillColor(Color(0, 0, 0));
+
+	pass_numb.setFont(font);
+	pass_numb.setPosition(700, 30);
+	pass_numb.setCharacterSize(20);
+	pass_numb.setFillColor(Color(0, 0, 0));
 
 	mp.x = Mouse::getPosition(win_ele).x;
 	mp.y = Mouse::getPosition(win_ele).y;
@@ -313,6 +319,7 @@ int main()
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
 					waga += 70;
+					pass++;
 				}
 			}
 
@@ -321,6 +328,7 @@ int main()
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
 					waga += 70;
+					pass++;
 				}
 			}
 
@@ -329,6 +337,7 @@ int main()
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
 					waga += 70;
+					pass++;
 				}
 			}
 
@@ -337,6 +346,7 @@ int main()
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
 					waga += 70;
+					pass++;
 				}
 			}
 
@@ -345,6 +355,7 @@ int main()
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
 					waga += 70;
+					pass++;
 				}
 			}
 
@@ -353,6 +364,7 @@ int main()
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
 					waga -= 70;
+					pass--;
 				}
 			}
 
@@ -361,6 +373,7 @@ int main()
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
 					waga -= 70;
+					pass--;
 				}
 			}
 
@@ -369,6 +382,7 @@ int main()
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
 					waga -= 70;
+					pass--;
 				}
 			}
 
@@ -377,6 +391,7 @@ int main()
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
 					waga -= 70;
+					pass--;
 				}
 			}
 
@@ -385,8 +400,13 @@ int main()
 				if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 				{
 					waga -= 70;
+					pass--;
 				}
 			}
+
+			stringstream ss;
+			ss << pass;
+			pass_numb.setString(ss.str());
 
 			win_ele.clear(sf::Color(255, 255, 255));
 			win_ele.draw(elev_img);
@@ -412,6 +432,7 @@ int main()
 			win_ele.draw(mone_2);
 			win_ele.draw(mone_3);
 			win_ele.draw(mone_4);
+			win_ele.draw(pass_numb);
 			if (waga >= 700)
 				win_ele.draw(warning);
 			win_ele.display();
