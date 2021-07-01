@@ -21,7 +21,7 @@ This is a final version. No further updates.
 Project does not contain any significant bugs.
 
 ## Thanks
-Project was created thanks to [SFML tutorial](https://www.sfml-dev.org/tutorials/2.5/) my friends suggestion to use SFML library.
+Project was created thanks to [SFML tutorial](https://www.sfml-dev.org/tutorials/2.5/) and my friends suggestion to use SFML library.
 
 ### Creators  
 Project was made by Filip Urbański and Kamil Gromek. If any questions arise contact us through GitHub.
