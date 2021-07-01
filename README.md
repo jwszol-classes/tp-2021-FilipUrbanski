@@ -14,4 +14,15 @@ Afther that the program should run fine.
 4. In the top right corner you will find passenger counter.
 5. If the weight exceeds the limit a warning will pop-up in the top left corner. 
 
+## Updates
+This is a final version. No further updates.
+
+## Bugs
+Project does not contain any significant bugs.
+
+## Thanks
+Project was created thanks to [SFML tutorial](https://www.sfml-dev.org/tutorials/2.5/) my friends suggestion to use SFML liblary.
+
+### Creators  
+Project was made by Filip Urbański and Kamil Gromek. If any questions arise contact us through GitHub.
 
